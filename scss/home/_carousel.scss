@@ -1,0 +1,103 @@
+ 
+.container-carousel {
+  position: relative;
+  max-width: 75rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
+}
+.main-carousel {
+  .carousel-title-top{
+    text-align: center;
+    margin-top: 3.5rem;
+    .carousel-color-one{
+      font-size: 2.5rem;
+      color: $dark-orange;
+      font-style: italic;
+      font-weight: bold;
+    }
+    .carousel-color-two{
+      color: $gray;
+      font-style:normal;
+      font-weight: bold;
+    }
+    .carousel-color-three{
+      color: $gray;
+      font-weight: 600;
+      margin-top: 1rem;
+    }
+  }
+  .container-carousel {
+    .swiper-container {
+      font-family: 'MontSerrat';
+      width: 100%;
+      overflow: hidden;
+      padding: 1rem 0;
+      .swiper-wrapper {
+        .swiper-slide {
+          border-radius: 8px;
+          box-shadow: -1px 15px 30px -12px $black;
+          height: auto !important;
+          .card-description{
+            .card-title{
+              color: $dark-lilas;
+              padding-top: 0.5rem;
+              text-align: center;
+            }
+            .card-text{
+              padding: 0.5rem;
+              text-align: center;
+            }
+            .card-link {
+              padding: 0.5rem;
+              text-align: center;
+              margin-bottom: 1rem;
+              a{
+                text-decoration: none;
+              }
+            }
+
+          }
+          .card-image {
+            img {
+              display: block;
+              position: relative;
+              left: 0;
+              bottom: 0;
+              width: 100%;
+              height: auto;
+              object-fit: cover;
+              border-top-left-radius: 8px;
+              border-top-right-radius: 8px;
+            }
+          }
+        }
+      }
+      .swiper-pagination {
+        &-bullet {
+          opacity: 0.8;
+          background: $dark-orange;
+          &-active {
+            background: $dark-lilas;
+          }
+        }
+      }
+      .swiper-button-next,
+      .swiper-button-prev {
+        background-color: $dark-orange;
+        color: $white;
+        width: 4rem;
+        height: 4rem;
+        border-radius: 50%;
+        box-shadow: -1px 15px 30px -12px $black;
+        margin-top: -1rem;
+        outline: none;
+      }
+    }
+  }
+}
+
+
+
+
+

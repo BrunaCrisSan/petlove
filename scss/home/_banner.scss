@@ -1,0 +1,104 @@
+.banner-top{
+    height: auto;
+    background-image: url("../../imagem/banner-top-img/background-banner-top.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    .banner-top-title{
+        color: $white;
+        height: auto;
+        margin-left: auto;
+        text-shadow: 2px 2px $black;
+        .title-top{
+            display: flex;
+            align-items: center;
+            width: 410px;
+            height: 150px;
+            margin-left: auto;
+            .banner-title {
+                font-size: 40px;   
+            }
+            .dog{
+                font-family: 'doggon';
+                font-size: 150px;
+            }
+        }
+        .banner-text {
+            font-size: 28px;
+            display: flex;
+            margin-left: auto;
+            width: 410px;
+            height: 150px;
+            align-items: center;
+        }
+        @include responsive(m){
+            .title-top, .banner-text {
+                display: inline; 
+                font-size: large;
+                align-items: center;  
+                width: 25em;    
+            } 
+        }
+        @include responsive(s){
+            .title-top { 
+                display: inline; 
+                font-size: medium;
+                align-items: center;
+                width: 10em; 
+            }
+            .dog{
+                display: none;
+            }
+            .banner-text{
+                display: none;
+            }   
+        }
+    }
+    .banner-top-msg{
+        color: $white;
+        font-size: 20px;
+        margin-top: 10px;
+        text-shadow: 2px 2px $black;
+    }
+    .banner-top-nav-pesquisa{
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-items: center;
+        height: 170px;
+        justify-content: center;
+        margin: 0;
+        .banner-top-buttom{
+            display: flex;
+            justify-content: center;
+            .select{
+               margin-right: 0.7rem;
+            }
+            .form-select{
+                width: 200px;
+                flex: none;
+            }
+            .search{
+                position: relative;   
+            }
+            .search input{
+                height: 40px;
+                width: 200px;
+                text-indent: 25px;
+            }
+            .search .fa-search{
+                color: $white;
+                position: absolute;
+                top: 8px;
+                left: 16px;
+            }
+            .search-input{
+                background-color: $dark-lilas;
+            }
+            .search-input::placeholder{
+                color: $white;
+            }
+        }
+    }
+}
+
+

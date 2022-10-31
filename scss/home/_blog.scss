@@ -1,0 +1,129 @@
+.container-blog{
+    position: relative;
+    .blog-titles{
+        font-family: 'MontSerrat';
+        text-align: center;
+        margin-top: 0.8rem;
+        .blog-text-one{
+            font-size: 2.5rem;
+            color: $gray;
+            font-style:normal;
+            font-weight: bold;
+            .blog-text-two{
+                color: $dark-orange;
+                font-style:italic;
+                font-size: 3.2rem;
+                font-weight: bold;
+            }   
+        }
+        .blog-text-three{
+            color: $gray;
+            font-size:large;
+            font-weight: 600;
+            margin-top: 1rem;
+        }
+    }
+    // css image
+    .slide-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+        padding: 1rem 0;
+        text-align: center;
+    }
+    .wrapper {
+        display: inline-block;
+        padding-top: 40px;
+        padding-bottom: 40px;  
+        &:focus {
+        outline: 0;
+        }
+    }
+    .card_g {
+        background: $cinza-claro;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-right: 0.7rem;
+        margin-top: 5rem;
+        text-align: center;
+        box-shadow: -1px 15px 30px -12px $black;
+        z-index: 9999;
+        .card__image {
+            position: relative;
+            height: 230px;
+            margin-bottom: 35px;
+        }
+        .card__image-one {
+            background-color: $white;
+            img {
+            width: 19rem;
+            position: absolute;    
+            top: -4rem;
+            left: -1rem;
+            }
+        }
+        .card__image-two {
+            background-color: $white;
+            img {
+            width: 15rem;
+            position: absolute;    
+            top: -3rem;
+            left: 1rem;
+            }
+        }
+        .card__image-three {
+            background-color: $white;
+            img {
+            width: 20rem;
+            position: absolute;    
+            top: -30px;
+            left: -25px;
+            }
+        }
+        .card-body{
+            font-family: 'MontSerrat';
+            .card-name {
+                font-size: 26px;
+                color: $black;
+                font-weight: 900;
+                margin-bottom: 5px;
+            }
+            .card-description {
+                padding: 20px;
+                margin-bottom: 10px; 
+            } 
+            .card-link{
+                a:link{
+                    text-decoration: none;
+                } 
+                a{
+                    color: $dark-orange;
+                    margin-left: 0.5rem;
+                }
+            }
+
+        }
+        .blog-footer-one{
+            background-color: $dark-orange;
+            height: 1.5rem;
+        }
+        .blog-footer-two{
+            background-color: $dark-lilas;
+            height: 1.5rem;
+        }
+        .blog-footer-three{
+            background-color: $verde;
+            height: 1.5rem;
+        }
+    }
+}
+
+
+
+
+
+

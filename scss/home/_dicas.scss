@@ -1,0 +1,88 @@
+.page-dicas{
+    font-family: 'MontSerrat';
+    height: auto;
+    margin: 0;
+    padding: 0;
+    .dicas-title{
+        text-align: center;
+        margin-top: 5rem;
+        .dicas-color-one{
+            font-style: italic;
+            font-weight: bold;
+            font-size: 2em;
+            color: $dark-orange;
+        }
+        .dicas-color-two{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 1em;
+            color: $gray;
+        }
+    }
+    .dicas-card {
+        margin-top: 3.8rem;
+        .div-images {
+            display: flex;
+            min-height: 165px;
+            margin: auto;
+            .div-image {
+                max-width: 100%;
+                height: auto;
+            }
+        }
+        @include responsive(m){
+            .div-image {
+                display: inline-block;  
+                max-height: 120px !important; 
+                margin: auto;
+            } 
+        }
+    }
+    .card-body{
+        min-height: 410px;
+        margin-top: 2.5rem;
+        .card-title{
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        .card-text{
+            color: $acinzentado;
+            font-weight: 500;
+            font-size: 1em;
+            margin-top: 2.5rem;
+            min-height: 168px;
+            margin: auto;
+        }
+        .dicas-btn{
+            background-color: $cinza-claro;
+            font-weight: 600;
+            font-style: 2rem;
+            color: $dark-orange;
+            margin-top: 3.5rem;
+            width: 60%;
+            .btn-label{
+                padding-right: 1em;
+            }
+        }
+    }
+    @include responsive(l){
+        .card-text {
+            display: inline-block;  
+            min-height: 360px !important;
+            margin-top: 1em !important; 
+        } 
+    }
+    @include responsive(m){
+        .card-text {
+            display: inline-block;  
+            min-height: 360px !important; 
+        } 
+    }
+    @include responsive(s){
+        .card-text {
+            display: inline-block;  
+            min-height: 200px !important;
+            margin-top: 1em !important; 
+        } 
+    }
+}

@@ -1,0 +1,95 @@
+.bannerinf{
+    background-image:url("../../imagem/bannerinf-img/Group-2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    box-shadow: 0 0 10px $gray;
+    margin-top: 2rem;
+    .bannerinf-img{
+        height: 550px;
+        width: 350px;
+        transform: rotate(-25deg);
+        margin-top: 2.5rem;
+        margin-bottom: 2rem;
+        box-shadow: -1px 15px 30px -12px $black;
+        }
+        @include responsive(m){
+            .bannerinf-img {
+                display: inline-block;  
+                height: auto;  
+            } 
+        }
+        @include responsive(s){
+            .bannerinf-img { 
+                display: none;    
+            }
+        }
+    .text-right{
+        font-family: 'MontSerrat';
+        color: $white;
+        margin-top: 7rem;
+        .text-h1{
+            text-align: center;
+            font-style: italic;
+            font-weight: bolder;
+            font-size: 2.8em;
+            text-shadow: 2px 2px $black;
+        }
+        .text-h2{
+            text-align: center;
+            font-style: italic;
+            font-weight:500;
+            font-size: 2.8em;
+            margin-top: 0.5rem;
+            text-shadow: 2px 2px $black;
+        }
+        .text-p{
+            text-align: center;
+            font-style: italic;
+            font-weight: 300;
+            font-size: 1.3em;
+            margin-top: 1.5rem;
+            text-shadow: 2px 2px $black;
+        }
+    }
+    @include responsive(m){
+        .text-right{ 
+            display: inline-block;
+            width: 100%;
+            margin-top: auto;
+            .text-h1{
+                text-align: center;
+                font-size: 1.5em;
+            }
+            .text-h2{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            .text-p{
+                text-align: center;
+                font-size: 1em;
+            }
+        }
+    }
+    @include responsive(s){
+        .text-right{ 
+            display: inline-block;
+            width: 100%;
+            margin-top: auto;
+            .text-h1{
+                text-align: center;
+                font-size: 1.5em;
+            }
+            .text-h2{
+                text-align: center;
+                font-size: 1.2em;
+            }
+            .text-p{
+                text-align: center;
+                font-size: 1em;
+            }
+        }
+    }
+
+}    
