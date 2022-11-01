@@ -21,7 +21,7 @@ button {
 }
 
 /*Components*/
-/*Site*/
+/*Home*/
 .top-menu {
   background-color: #FFFFFF;
   position: relative;
@@ -705,4 +705,17 @@ button {
 .footer-container .faixa-footer .faixa-text-2 {
   color: #FFFFFF !important;
   text-shadow: 2px 2px 0 #000;
+}
+
+/*Components*/
+/*Adotar*/
+.container-adotar {
+  background-color: #606060;
+  font-family: "MontSerrat";
+}
+.container-adotar .adotar-top-msg {
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 10px;
+  text-shadow: 2px 2px #000;
 }/*# sourceMappingURL=adote.css.map */
