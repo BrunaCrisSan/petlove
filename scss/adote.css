@@ -893,54 +893,21 @@ button {
 .detail-container .detail-faixa .detail-text .detail-text-italic .house-detail {
   height: 2.5rem;
 }
-.detail-container .detail-back {
-  margin-top: 1rem;
-}
-.detail-container .detail-back .detail-border {
-  color: #8C52FF;
-  border: none;
-}
-.detail-container .detail-back .detail-border .detail-text {
-  padding-left: 1rem;
-}
 .detail-container .detail-row {
   font-family: "MontSerrat";
   margin-top: 1rem;
   color: #606060;
 }
-.detail-container .detail-row .card-title-photo {
-  margin-top: 1rem;
-}
-.detail-container .detail-row .detail-photo .row-detail-dog {
-  font-weight: 500;
-  font-size: 14.5px;
-}
-.detail-container .detail-row .detail-photo .photo-card .card-img-top {
-  width: 100%;
-  height: auto;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-  box-shadow: -10px 10px 5px 0px rgb(155, 141, 149);
-}
-.detail-container .detail-row .detail-photo .row-detail-two {
-  background-color: #A62A77;
-  padding-bottom: 0.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-.detail-container .detail-row .detail-text-photo {
-  margin-top: 2.8rem;
-}
-.detail-container .detail-row .detail-text-photo .detail-button {
+.detail-container .detail-row .detail-text-btn .detail-button {
   height: 4rem !important;
   padding: 0 !important;
 }
-.detail-container .detail-row .detail-text-photo .detail-button .detail-btn {
+.detail-container .detail-row .detail-text-btn .detail-button .detail-btn {
   background-color: #8C52FF;
   color: #FFFFFF;
   padding: 0 !important;
 }
-.detail-container .detail-row .detail-text-photo .detail-button .detail-btn .img-detail {
+.detail-container .detail-row .detail-text-btn .detail-button .detail-btn .img-detail-btn {
   padding-right: 1rem;
 }
 .detail-container .detail-row .card-detail {
@@ -950,7 +917,7 @@ button {
   background-color: #D9D9D9;
   width: 80%;
   height: 0.01rem;
-  margin-top: 5rem;
+  margin-top: 2.5rem;
 }
 .detail-container .detail-information .icon-certo {
   color: #64DDBB;
@@ -963,12 +930,108 @@ button {
   background-color: #D9D9D9;
   width: 100%;
   height: 0.01rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
 }
 .detail-container .text-detail-final {
   font-family: "MontSerrat";
   color: #606060;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+
+.mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+.mySwiper2 :focus {
+  outline: none;
+}
+
+.color-mySwiper {
+  background-color: #A62A77;
+  padding-left: 0.5rem !important;
+  padding-right: 0.5rem !important;
+}
+
+.mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.6;
+}
+
+.mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: #A62A77;
+  color: #FFFFFF;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-top: -1rem;
+}
+.swiper-button-next .swiper-button-next,
+.swiper-button-next .swiper-button-prev,
+.swiper-button-prev .swiper-button-next,
+.swiper-button-prev .swiper-button-prev {
+  background-color: #A62A77;
+  color: #FFFFFF;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  margin-top: -1rem;
+}
+
+/*Components*/
+/*About*/
+.about-container {
+  width: 1440px;
+  height: 2200px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 0.5rem;
 }/*# sourceMappingURL=adote.css.map */
