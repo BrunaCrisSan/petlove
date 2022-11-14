@@ -1029,9 +1029,57 @@ button {
 
 /*Components*/
 /*About*/
-.about-container {
-  width: 1440px;
-  height: 2200px;
+.fluid-about {
+  font-family: "MontSerrat";
+}
+.fluid-about .about-container {
+  width: 100%;
+  height: auto;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin-top: 0.5rem;
+}
+.fluid-about .about-container .container-conteudo {
+  width: auto;
+  padding: 2rem;
+}
+.fluid-about .about-container .container-conteudo .title-one {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+.fluid-about .about-container .container-conteudo .title-two {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+.fluid-about .about-container .container-conteudo .text-about .title-h2 {
+  color: #000;
+  font-weight: bolder;
+}
+.fluid-about .about-container .container-conteudo .text-about .text-h4 {
+  color: #606060;
+  font-size: 1.2rem;
+}
+.fluid-about .about-container .container-conteudo .text-about .text-h44 {
+  color: #F04903;
+  font-size: 1.2rem;
+}
+.fluid-about .about-container .container-conteudo .text-about .column-icons {
+  position: relative;
+}
+.fluid-about .about-container .container-conteudo .text-about .column-icons .about-img {
+  width: 90px;
+  height: 90px;
+}
+.fluid-about .about-container .container-conteudo .text-about .column-icons .icon-user {
+  padding-top: 4rem;
+}
+.fluid-about .about-container .container-conteudo .text-about .column-icons .icon-paper {
+  padding-top: 4rem;
+}
+.fluid-about .about-container .container-conteudo .text-about .linha-about {
+  background-color: #000;
+  width: 20%;
+  height: 0.2rem;
+  margin-left: 1rem;
 }/*# sourceMappingURL=adote.css.map */

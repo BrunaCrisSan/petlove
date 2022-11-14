@@ -1,7 +1,57 @@
-.about-container{
-    
-    width: 1440px;
-    height: 2200px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin-top: 0.5rem;
+.fluid-about{
+    font-family: 'MontSerrat';
+    .about-container{
+        width: 100%;
+        height: auto;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top: 0.5rem;
+        .container-conteudo{
+            width: auto;
+            padding: 2rem;
+            .title-one{
+                margin: auto;
+                width: 90%;
+                padding: 10px;
+            }
+            .title-two {
+                margin: auto;
+                width: 90%;
+                padding: 10px;
+            }
+            .text-about{
+                .title-h2{
+                    color: $black;
+                    font-weight: bolder;
+                }
+                .text-h4{
+                    color: $acinzentado;
+                    font-size: 1.2rem;
+                }
+                .text-h44{
+                    color: $safety-orange;
+                    font-size: 1.2rem;
+                }
+                .column-icons{
+                    position: relative;
+                    .about-img{
+                        width: 90px;
+                        height: 90px;
+                    }
+                    .icon-user{
+                        padding-top: 4rem;
+                    }
+                    .icon-paper{
+                        padding-top: 4rem;
+                    }
+                }
+                .linha-about{
+                    background-color: $black;
+                    width: 20%;
+                    height: 0.2rem;
+                    margin-left: 1rem;
+                }
+            }
+        }
+    }
 }
+
