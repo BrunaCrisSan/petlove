@@ -1082,4 +1082,19 @@ button {
   width: 20%;
   height: 0.2rem;
   margin-left: 1rem;
+}
+
+.linha-about {
+  background-color: #E7E7E7;
+  width: 100%;
+  height: 0.01rem;
+}
+
+/*Components*/
+/*sign-uplogin*/
+.form-sign-up {
+  width: 100%;
+  height: 800px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 0.5rem;
 }/*# sourceMappingURL=adote.css.map */
