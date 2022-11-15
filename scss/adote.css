@@ -795,7 +795,7 @@ button {
   background-color: #F04903;
   color: #FFFFFF;
   width: 80%;
-  border-radius: 8px;
+  border-radius: 12px;
   margin-bottom: 1rem;
 }
 
@@ -1221,7 +1221,7 @@ button {
   height: 40px;
   border: none;
   outline: 0;
-  border-radius: 5px;
+  border-radius: 12px;
   font-size: 18px;
   color: #FFFFFF;
   background-color: #F04903;
@@ -1283,4 +1283,13 @@ button {
 }
 
 /*Components*/
-/*in-sign*//*# sourceMappingURL=adote.css.map */
+/*in-sign*/
+.container-insign {
+  font-family: "MontSerrat";
+}
+
+.linha-insign {
+  background-color: #E7E7E7;
+  width: 100%;
+  height: 0.01rem;
+}/*# sourceMappingURL=adote.css.map */
