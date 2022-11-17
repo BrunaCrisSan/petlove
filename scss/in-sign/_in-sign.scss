@@ -1,5 +1,52 @@
-.container-insign{
-    font-family: "MontSerrat";
+.insign-container{
+    font-family: 'MontSerrat';
+    .container{
+        background-image: linear-gradient(to bottom, transparent 30%, rgba(134, 70, 238, 0.671) 85%), url("../../imagem/in-sign-img/Purple.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        height: 40rem;
+        margin-top: 2rem;
+        .insign-color{
+            background-color:rgba(140, 82, 255, 0.863);
+            border-radius: 12px;
+            margin-top: 8rem;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        .text-center{
+            color: $white;
+            font-size: 1.5rem;
+        }
+        .form-control{ 
+            background-color:rgba(140, 82, 255, 0.863);
+            font-family: 'MontSerrat';
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 500;
+        }
+        input::placeholder {
+            color: $white;   
+            }
+        .btn-color{
+            background-color: $cinza-claro;
+            border-radius: 12px;
+            font-size: 15px;
+            font-weight: 600;
+            width: 80%;
+            margin: auto;
+        }
+        .text-link{
+            color: $white;
+            font-size: 0.7rem;
+            .insign-click{
+                color: $black;
+                font-size: 0.7rem;
+            }
+        }
+    }
 }
 .linha-insign{
     background-color: $cinza-claro;

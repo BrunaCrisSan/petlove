@@ -1108,6 +1108,7 @@ button {
   justify-content: center;
   margin: auto;
   margin-bottom: 3rem;
+  border-radius: 12px;
 }
 .container .form-sign-up .card .user {
   overflow: hidden;
@@ -1284,8 +1285,61 @@ button {
 
 /*Components*/
 /*in-sign*/
-.container-insign {
+.insign-container {
   font-family: "MontSerrat";
+}
+.insign-container .container {
+  background-image: linear-gradient(to bottom, transparent 30%, rgba(134, 70, 238, 0.671) 85%), url("../../imagem/in-sign-img/Purple.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 40rem;
+  margin-top: 2rem;
+}
+.insign-container .container .insign-color {
+  background-color: rgba(140, 82, 255, 0.863);
+  border-radius: 12px;
+  margin-top: 8rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.insign-container .container .text-center {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+.insign-container .container .form-control {
+  background-color: rgba(140, 82, 255, 0.863);
+  font-family: "MontSerrat";
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+.insign-container .container input::-moz-placeholder {
+  color: #FFFFFF;
+}
+.insign-container .container input:-ms-input-placeholder {
+  color: #FFFFFF;
+}
+.insign-container .container input::placeholder {
+  color: #FFFFFF;
+}
+.insign-container .container .btn-color {
+  background-color: #E7E7E7;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 600;
+  width: 80%;
+  margin: auto;
+}
+.insign-container .container .text-link {
+  color: #FFFFFF;
+  font-size: 0.7rem;
+}
+.insign-container .container .text-link .insign-click {
+  color: #000;
+  font-size: 0.7rem;
 }
 
 .linha-insign {
