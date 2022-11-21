@@ -29,7 +29,7 @@
         color: $acinzentado;
         .detail-text-btn{
             .detail-button{
-                height: 4rem !important;
+                height: 3rem !important;
                 padding: 0 !important;
                 .detail-btn{
                     background-color: $dark-lilas;
@@ -43,6 +43,27 @@
         }
         .card-detail{
             margin-top: 2rem;
+            .name{
+                color: $dark-lilas;
+                font-size: 25px;
+                font-weight:bold;
+            }
+            .name-color{
+                color: $safety-orange;
+                font-size: 25px;
+                font-weight: bold;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 600;
+                color: $safety-orange;
+            }
+            h3{
+                font-size: 20px;
+            }
+            .color-icon{
+                color: $safety-orange;
+            }
             .linha-detail{
                 background-color: $cinza;
                 width: 80%;
@@ -50,6 +71,11 @@
                 margin-top: 2.5rem;
             }
         }
+    }
+    .color-det{
+        color: $safety-orange;
+        font-size: 25px;
+        font-weight: bold;
     }
     .detail-information{
         .icon-certo{

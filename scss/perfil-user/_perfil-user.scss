@@ -1,0 +1,74 @@
+.profile{
+    font-family: 'MontSerrat';
+    text-align:center;
+    margin: auto;
+    .perfil-info{ 
+        .perfil-breadcrumb{
+            a{
+                text-decoration: none;
+                font-weight: 500;
+                color: $acinzentado;
+            }
+            a:hover {
+                color: $safety-orange;
+                font-weight: 600;
+              }
+        }
+        .perfil-col-image {
+            .perfil-image{
+                margin-right: 30px;
+                img{
+                    border-radius:50%;
+                }
+            }
+        }  
+        .perfil-content{
+            text-align:left;
+            .perfil-name{
+                color: $dark-lilas;
+                font-weight: bolder;
+                font-size: 25px;
+            }
+            .perfil-city{
+                font-weight: 500;
+                color: $acinzentado;
+            }
+            .perfil-h6{
+                .perfil-contact{
+                    color: $acinzentado;
+                }
+                a:hover {
+                    color: $safety-orange;
+                    font-weight: 600;
+                  }
+            }
+            .perfil-icon{
+                background-color: $safety-orange;
+                display: inline-flex;
+                border-radius: 50%;
+                border: 0.5px solid $safety-orange;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+            
+            p{
+                color: $acinzentado;
+                font-weight:600;
+                font-size:20px;
+            }
+            .perfil-number{
+                color: $safety-orange;
+                font-size: 30px;
+            }
+        }        
+    }
+}
+
+
+
+
+
+.linha-user{
+    background-color: $cinza-claro;
+    width: 100%;
+    height: 0.01rem;
+}

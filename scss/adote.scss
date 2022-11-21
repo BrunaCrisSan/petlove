@@ -2,7 +2,6 @@
 @import './tema/color';
 @import './tema//mixins';
 @import './tema//tipography';
-
 /*Components*/
 /*Home*/
 @import './home/nav';
@@ -12,7 +11,6 @@
 @import './home/bannerinf';
 @import './home/dicas';
 @import './home/footer';
-
 /*Components*/
 /*Adotar*/
 @import './adotar/cards';
@@ -32,6 +30,10 @@
 /*Components*/
 /*in-sign*/
 @import './in-sign/in-sign';
+/*Components*/
+/*perfil-user*/
+@import './perfil-user/perfil-user';
+@import './perfil-user/perfil-cards';
 
 
 
