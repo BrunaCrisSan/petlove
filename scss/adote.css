@@ -1462,4 +1462,56 @@ button {
   height: 10rem;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+/*Components*/
+/*sap-email*/
+.container {
+  font-family: "MontSerrat";
+  margin: 0;
+  padding: 0;
+}
+.container .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  width: 28rem;
+  height: 12rem;
+  margin: auto;
+}
+.container .card .icon-back-color {
+  background-color: rgba(229, 172, 235, 0.055);
+  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.container .card .icon-back-color .icon-interro {
+  color: #8C52FF;
+}
+.container .card .contact {
+  color: #8C52FF;
+  font-weight: bold;
+}
+.container .card li {
+  list-style: none;
+}
+.container .card .email-phone {
+  color: #8C52FF;
+  font-weight: 500;
+}
+.container .card .email-phone .env-color,
+.container .card .email-phone .sap-color {
+  color: #F04903;
+}
+.container .card .btn-text-color {
+  color: #8C52FF;
+  font-weight: 500;
+  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
 }/*# sourceMappingURL=adote.css.map */

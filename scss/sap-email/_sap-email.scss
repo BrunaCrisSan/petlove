@@ -1,0 +1,50 @@
+.container{
+    font-family: 'MontSerrat';
+    margin: 0;
+    padding: 0;
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-clip: border-box;
+        border: 1px solid #e6e4e9;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 8px;
+        width: 28rem;
+        height: 12rem;
+        margin: auto;
+        .icon-back-color{
+            background-color: rgba(229, 172, 235, 0.055);
+            box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+            display: inline-flex;
+            justify-content: center;
+            border-radius: 50%;
+            width: 2rem;
+            height: 2rem;
+            .icon-interro{
+                color: $dark-lilas;
+            }
+        }
+        .contact{
+            color: $dark-lilas;
+            font-weight: bold;
+        }
+        li{
+            list-style: none;
+        }
+        .email-phone{
+            color: $dark-lilas;
+            font-weight: 500;
+            .env-color, 
+            .sap-color{
+                color: $safety-orange;
+            }
+        }
+        .btn-text-color{
+            color: $dark-lilas;
+            font-weight: 500;
+            box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+        }
+    }
+}
+
