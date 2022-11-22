@@ -80,6 +80,9 @@ button {
   .top-menu .menu .container-menu .nav-menu {
     display: none;
   }
+  .top-menu .menu .container-menu .btn-cadastrar {
+    display: none;
+  }
   .top-menu .menu .container-menu .nav-login .nav-item-menu-mobile {
     display: block !important;
   }
@@ -96,6 +99,9 @@ button {
     display: block !important;
   }
   .top-menu .menu .container-menu .nav .nav-item .text {
+    display: none;
+  }
+  .top-menu .menu .container-menu .btn-cadastrar {
     display: none;
   }
   .top-menu .menu .container-menu .logo img {

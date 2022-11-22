@@ -54,6 +54,9 @@
             .nav-menu{
                 display: none;
             }
+            .btn-cadastrar{
+                display: none;
+            }
             .nav-login .nav-item-menu-mobile{
                 display: block !important;
             }
@@ -73,6 +76,9 @@
                         display: none;
                     }
                 } 
+            }
+            .btn-cadastrar{
+                display: none;
             }
             .logo img{
                width: 130px;
