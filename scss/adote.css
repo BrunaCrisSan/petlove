@@ -795,10 +795,12 @@ button {
 }
 .container-adotar .btn-adotar-1 {
   background-color: #F04903;
-  color: #FFFFFF;
   width: 80%;
   border-radius: 12px;
   margin-bottom: 1rem;
+}
+.container-adotar .btn-adotar-1 a {
+  color: #FFFFFF;
 }
 
 .pagination {
