@@ -35,6 +35,7 @@
       padding: 1rem 0;
       .swiper-wrapper {
         .swiper-slide {
+          display: inline-block;
           border-radius: 8px;
           box-shadow: -1px 15px 30px -12px $black;
           height: auto !important;

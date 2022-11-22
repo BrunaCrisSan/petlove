@@ -278,6 +278,7 @@ button {
   padding: 1rem 0;
 }
 .main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide {
+  display: inline-block;
   border-radius: 8px;
   box-shadow: -1px 15px 30px -12px #000;
   height: auto !important;
@@ -774,7 +775,7 @@ button {
 .container-adotar .adotar-row .adotar-col .adotar-card {
   border-radius: 8px;
   box-shadow: -1px 15px 30px -12px #000;
-  width: 20rem;
+  width: 100%;
   height: auto !important;
 }
 .container-adotar .adotar-row .adotar-col .adotar-card .card-body .card-title {
