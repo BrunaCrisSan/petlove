@@ -774,6 +774,7 @@ button {
 .container-adotar .adotar-row .adotar-col .adotar-card {
   border-radius: 8px;
   box-shadow: -1px 15px 30px -12px #000;
+  width: 20rem;
   height: auto !important;
 }
 .container-adotar .adotar-row .adotar-col .adotar-card .card-body .card-title {
@@ -1408,10 +1409,10 @@ button {
   font-weight: 500;
   color: #606060;
 }
-.profile .perfil-info .perfil-content .perfil-h6 .perfil-contact {
+.profile .perfil-info .perfil-content .perfil-div .perfil-contact {
   color: #606060;
 }
-.profile .perfil-info .perfil-content .perfil-h6 a:hover {
+.profile .perfil-info .perfil-content .perfil-div a:hover {
   color: #F04903;
   font-weight: 600;
 }
@@ -1431,6 +1432,60 @@ button {
   color: #F04903;
   font-size: 30px;
 }
+.profile .perfil-info .perfil-content .perfil-btn {
+  font-weight: 500;
+  color: #606060;
+}
+.profile .perfil-info .perfil-content .perfil-btn:hover {
+  color: #F04903;
+  font-weight: 600;
+}
+
+/*modal*/
+.card-modal {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-clip: border-box;
+  border: 1px solid #e6e4e9;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+  width: 30rem;
+  height: auto;
+  margin-top: 40%;
+}
+.card-modal .icon-back-color {
+  background-color: rgba(229, 172, 235, 0.055);
+  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+  display: inline-flex;
+  justify-content: center;
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+}
+.card-modal .icon-back-color .icon-interro {
+  color: #8C52FF;
+}
+.card-modal .contact {
+  color: #8C52FF;
+  font-weight: bold;
+}
+.card-modal li {
+  list-style: none;
+}
+.card-modal .email-phone {
+  color: #8C52FF;
+  font-weight: 500;
+}
+.card-modal .email-phone .env-color,
+.card-modal .email-phone .sap-color {
+  color: #F04903;
+}
+.card-modal .btn-text-color {
+  color: #8C52FF;
+  font-weight: 500;
+  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+}
 
 .linha-user {
   background-color: #E7E7E7;
@@ -1447,6 +1502,7 @@ button {
 .container-fluid .perfil-row .perfil-col .perfil-card {
   border-radius: 8px;
   box-shadow: -1px 15px 30px -12px #000;
+  width: 12rem;
 }
 .container-fluid .perfil-row .perfil-col .perfil-card .card-body .perfil-title {
   color: #8C52FF;
@@ -1462,56 +1518,4 @@ button {
   height: 10rem;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-}
-
-/*Components*/
-/*sap-email*/
-.container {
-  font-family: "MontSerrat";
-  margin: 0;
-  padding: 0;
-}
-.container .card {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  background-clip: border-box;
-  border: 1px solid #e6e4e9;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  border-radius: 8px;
-  width: 28rem;
-  height: 12rem;
-  margin: auto;
-}
-.container .card .icon-back-color {
-  background-color: rgba(229, 172, 235, 0.055);
-  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
-  display: inline-flex;
-  justify-content: center;
-  border-radius: 50%;
-  width: 2rem;
-  height: 2rem;
-}
-.container .card .icon-back-color .icon-interro {
-  color: #8C52FF;
-}
-.container .card .contact {
-  color: #8C52FF;
-  font-weight: bold;
-}
-.container .card li {
-  list-style: none;
-}
-.container .card .email-phone {
-  color: #8C52FF;
-  font-weight: 500;
-}
-.container .card .email-phone .env-color,
-.container .card .email-phone .sap-color {
-  color: #F04903;
-}
-.container .card .btn-text-color {
-  color: #8C52FF;
-  font-weight: 500;
-  box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
 }/*# sourceMappingURL=adote.css.map */

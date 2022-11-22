@@ -33,7 +33,7 @@
                 font-weight: 500;
                 color: $acinzentado;
             }
-            .perfil-h6{
+            .perfil-div{
                 .perfil-contact{
                     color: $acinzentado;
                 }
@@ -49,7 +49,6 @@
                 border: 0.5px solid $safety-orange;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
-            
             p{
                 color: $acinzentado;
                 font-weight:600;
@@ -59,13 +58,64 @@
                 color: $safety-orange;
                 font-size: 30px;
             }
+            .perfil-btn{
+                font-weight: 500;
+                color: $acinzentado;
+            }
+            .perfil-btn:hover {
+                color: $safety-orange;
+                font-weight: 600;
+            }
         }        
     }
 }
 
+/*modal*/
 
-
-
+.card-modal {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    border: 1px solid #e6e4e9;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 8px;
+    width: 30rem;
+    height: auto;
+    margin-top: 40%;
+    .icon-back-color{
+        background-color: rgba(229, 172, 235, 0.055);
+        box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+        display: inline-flex;
+        justify-content: center;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+        .icon-interro{
+            color: $dark-lilas;
+        }
+    }
+    .contact{
+        color: $dark-lilas;
+        font-weight: bold;
+    }
+    li{
+        list-style: none;
+    }
+    .email-phone{
+        color: $dark-lilas;
+        font-weight: 500;
+        .env-color, 
+        .sap-color{
+            color: $safety-orange;
+        }
+    }
+    .btn-text-color{
+        color: $dark-lilas;
+        font-weight: 500;
+        box-shadow: rgba(39, 36, 39, 0.226) 0px 5px 15px;
+    }
+}
 
 .linha-user{
     background-color: $cinza-claro;
