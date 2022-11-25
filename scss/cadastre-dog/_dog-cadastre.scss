@@ -1,0 +1,203 @@
+
+.container{
+    .form-cadastre-dog{
+        width: 100%;
+        height: auto;
+        margin-top: 0.5rem;
+        .card {
+            width: 100%;
+            height: auto;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            overflow: hidden;
+            position: relative;
+            font-family: 'MontSerrat';
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            margin-bottom: 3rem;
+            border-radius: 12px;
+            
+            .user {
+                overflow: hidden;
+                position: relative;
+                width: 100%;
+                display: flex;
+                .form {
+                    background-color: $white;
+                    padding: 20px 30px;
+                    left: 0;
+                    box-sizing: border-box;
+                    transition: all 1s;
+                    .text_cadastre {
+                        margin-top: 20px;
+                    }
+                    .text_cadastre h2 {
+                        color: $acinzentado;
+                        font-style: italic;
+                        font-weight: 500;
+                        font-size: 1.3rem;
+                    }
+                    .text_cadastre p a{
+                        font-size: 12px;
+                        font-weight: 700;
+                        text-decoration: none;
+                        cursor: pointer
+                    }
+                    .input-text-cadastre {
+                        position: relative;
+                        margin-top: 30px
+                    }
+                    input[type="text"] {
+                        width: 100%;
+                        height: 40px;
+                        border: none;
+                        outline: 0;
+                        border: 1px solid #cccadc;
+                        border-radius: 5px;
+                        padding-left: 5px;
+                        padding-right: 20px;
+                        box-sizing: border-box
+                    }
+                    input[type="password"] {
+                        width: 100%;
+                        height: 40px;
+                        border: none;
+                        outline: 0;
+                        border: 1px solid #cccadc;
+                        border-radius: 5px;
+                        padding-left: 5px;
+                        padding-right: 24px;
+                        box-sizing: border-box
+                    }
+                    .input-text-cadastre i {
+                        position: absolute;
+                        top: 15px;
+                        right: 8px;
+                        color: #6b6589;
+                        cursor: pointer;
+                        font-size: 13px
+                    }
+                    .input-text-cadastre label {
+                        position: absolute;
+                        left: 5px;
+                        top: 12px;
+                        font-size: 12px;
+                        transition: all 0.5s;
+                        pointer-events: none
+                    }
+                    .form-select{
+                        position: relative;
+                        margin-top: 30px;
+                        width: 100%;
+                        height: 40px;
+                        border: none;
+                        outline: 0;
+                        border: 1px solid #cccadc;
+                        border-radius: 5px;
+                        padding-left: 5px;
+                        padding-right: 24px;
+                        box-sizing: border-box;
+                        font-size: 12px;
+                    }
+                    .row-inf{
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                        color: $safety-orange;
+                        label{
+                            color: $acinzentado;
+                            font-size: 0.6rem !important;
+                        }
+                    }
+                    .form-group{
+                        .form-control{
+                            font-family: 'MontSerrat';
+                            font-size: 12px !important;
+                        }
+                    }
+                    .form-check{
+                        .form-check-input{
+                            background-color: $safety-orange;
+                            border-color: $lilac;
+                        }
+                        .form-check-input:hover {
+                            background-color: $lilac;
+                        }
+                        .form-check-label{
+                            font-size: 14px;
+                        }
+                    }
+                    .cadastre-button {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 15px
+                    }
+                    .cadastre-button button {
+                        width: 100%;
+                        height: 40px;
+                        border: none;
+                        outline: 0;
+                        border-radius: 17px;
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: $white;
+                        background-color: $safety-orange;
+                        cursor: pointer;
+                        transition: all 0.5s
+                    }
+                    .cadastre-button button:hover {
+                        background-color: $lilac;
+                    }
+                    .policy {
+                        margin-top: 20px;
+                        a {
+                            font-size: 12px;
+                            font-weight: 700;
+                            color:$lilac;
+                            text-decoration: none;
+                            cursor: pointer
+                        }
+                        p{
+                            font-size: 12px;
+                            font-weight: 600;
+                            color:$acinzentado;
+                        }
+                    }
+                }
+                .image-box {
+                    height: 100%;
+                    width: 50%;
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                }    
+                .image-box img {
+                    box-sizing: border-box;
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
+@include responsive(m){
+    .container{
+        height:scroll;
+    }
+    .card{
+        max-width:350px;
+    }
+    .image-box{
+        display:none;
+    }
+    .user .form {
+        width:100%;
+         height:scroll;
+    }           
+}
+.linha-sign{
+    background-color: $cinza-claro;
+    width: 100%;
+    height: 0.01rem;
+}

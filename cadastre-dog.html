@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet I Love</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./swiper-css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./scss/adote.css">    
+</head>
+<body>
+    <div class="top-menu">
+        <div class="menu">
+            <div class="container container-menu">
+                <a class="logo" href="">
+                    <img class="img" src="./imagem/nav-img/logocor.png" alt="Pet's Love">
+                </a>
+    
+                <ul class="nav nav-menu">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="adotar.html">ADOTAR</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">SOBRE</a>
+                    </li>
+                </ul>
+                <ul class="btn-cadastrar nav nav-login">
+                    <li class="nav-item">
+                        <a class="nav-link btn-e btn" href="sign-uplogin.html">
+                            CADASTRAR
+                        </a>
+                    </li>
+                </ul>
+    
+                <ul class="nav nav-login">
+                    <li class="nav-item">
+                        <a class="nav-link btn-e btn" href="in-sign.html">
+                            <span class="icon text">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                                    <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                  </svg>
+                            </span>ENTRAR
+                        </a>
+                    </li>
+                    <li class="nav-item nav-item-menu-mobile">
+                        <button class="btn-sidebar btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#MainMenuMobile" aria-controls="MainMenuMobile">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="MainMenuMobile" aria-labelledby="MainMenuMobileLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="MainMenuMobileLabel">
+            <a class="logo" href="">
+                <img class="sidebar-img" src="./imagem/nav-img/logocor.png" alt="Pet's Love">
+            </a>
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="sidebar-nav">
+            <nav class="navbar nav-sidebar">
+                <div class="container-sidebar">
+                    <ul class="sidebar-menu">
+                        <li><a class="dropdown-item" href="index.html">INICIO</a></li>
+                        <li><a class="dropdown-item" href="adotar.html">ADOTAR</a></li>
+                        <li><a class="dropdown-item" href="about.html">SOBRE</a></li>
+                        <li><a class="dropdown-item" href="in-sign.html">ENTRAR</a></li>    
+                    </ul>
+                </div>
+            </nav>
+        </div> 
+    </div>
+
+    <div class="container-fluid">
+        <div class="container mt-4">
+            <div class="form-cadastre-dog">
+                <div class="card">
+                    <div class="user cadastre_form">
+                        <div class="form col-md-6 col-sm-12 col-12">
+                            <div class="text_cadastre">
+                               <div class="text-center mb-5">
+                                   <img class="cadastre-img" src="./imagem/sign-up-img/logo.png" alt="Pet's Love">
+                               </div>
+                                <h2 class="text-center">Cadastro de Pet's</h2>
+                                <p class="text-center">Complete suas informações</p>
+                            </div>
+                            <div class="input-text-cadastre"> <input type="text" required> <label>Nome do pet</label> </div>
+                            
+                            <select class="form-select form-select-sm" aria-label="">
+                                <option selected>Sexo</option>
+                                <option value="1">Macho</option>
+                                <option value="2">Fêmea</option>
+                            </select>
+                            <select class="form-select form-select-sm" aria-label="">
+                                <option selected>Espécie</option>
+                                <option value="1">Cachorro</option>
+                                <option value="2">Gato</option>
+                            </select>
+                            <select class="form-select form-select-sm" aria-label="">
+                                <option selected>Tamanho</option>
+                                <option value="1">Pequeno</option>
+                                <option value="2">Médio</option>
+                                <option value="2">Grande</option>
+                            </select>
+                            <select class="form-select form-select-sm" aria-label="">
+                                <option selected>Cidade</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="2">Three</option>
+                            </select>
+                            <select class="form-select form-select-sm" aria-label="">
+                                <option selected>Estado</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="2">Three</option>
+                            </select>
+
+                            <div class="row-inf row justify-content-center d-flex align-items-center">
+                                <div class="col-md-4 mt-3">
+                                    <p>Vacinado?</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Sim
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Não
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <p>Vermifugado?</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Sim
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Não
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <p>Castrado?</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Sim
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Não
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row-inf row justify-content-center d-flex align-items-center">
+                                <div class="col-md-4 mt-3">
+                                    <p>Sociável?</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Sim
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Não
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <p>Temperamento!</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Dócil
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Agitado
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 mt-3">
+                                    <p>Vive bem em!</p>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" value="" id="">
+                                        <label class="form-check-label" for="">
+                                            Apartamento
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="" checked>
+                                        <label class="form-check-label" for="">
+                                            Casa
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group mt-4">
+                                <textarea class="form-control" id="" rows="3">Escreva outras informações</textarea>
+                            </div>
+
+                            <form class="form-upload justify-content-center d-flex align-items-center">
+                                <div class="col-sm-12 col-12">
+                                    <label class="label-upload justify-content-center d-flex align-items-center" for="arquivo">Carregar arquivo</label>
+                                    <input type="file" name="arquivo" id="arquivo">
+                                </div>
+                            </form>
+
+                            <div class="cadastre-button">
+                                <button>Confirma cadastro</button>
+                            </div>
+                            <div class="policy">
+                                <p>Ao clicar em inscrever-se, concorda com os nossos <a href="#">Termos</a> que leu e entendeu a <a href="#">Política de Utilização de Dados</a>, incluindo o nosso <a href="#">Uso de Cookies</a>. </p>
+                            </div>
+                        </div>
+                        <div class="image-box">
+                            <img class="box-image" src="./imagem/cadastre-dog/cadastre-dog.jpg"> 
+                        </div>
+                    </div>    
+                </div>
+
+            </div>
+        </div>
+    </div>
+   
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./swiper-js/swiper-bundle.min.js"></script>
+    <script src="./js/upload-cadastre-dog.js"></script>
+    
+</body>
+</html>
