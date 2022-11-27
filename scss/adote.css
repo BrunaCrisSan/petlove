@@ -73,6 +73,11 @@ button {
 .top-menu .menu .container-menu .nav .nav-link.btn.btn-e .icon {
   display: none;
 }
+.top-menu .menu .container-menu .nav .nav-link.btn.btn-c {
+  background-color: #8C52FF;
+  color: #FFFFFF;
+  height: 35px;
+}
 .top-menu .menu .container-menu .nav.nav-login .nav-item-menu-mobile {
   display: none;
 }
@@ -206,9 +211,10 @@ button {
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
-  height: 170px;
+  border-radius: 6px;
+  min-height: 80px;
   justify-content: center;
-  margin: 0;
+  margin: auto;
 }
 .banner-top .banner-top-nav-pesquisa .banner-top-buttom {
   display: flex;

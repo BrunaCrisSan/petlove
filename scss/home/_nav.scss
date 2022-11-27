@@ -41,6 +41,11 @@
                                 display: none;
                             }
                         }
+                        &.btn-c{
+                            background-color: $dark-lilas;
+                            color: $white;
+                            height: 35px;
+                        }
                     }
                 }
                 &.nav-login .nav-item-menu-mobile{

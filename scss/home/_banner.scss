@@ -63,9 +63,10 @@
         background-color: rgba(0, 0, 0, 0.5);
         display: flex;
         align-items: center;
-        height: 170px;
+        border-radius: 6px;
+        min-height: 80px;
         justify-content: center;
-        margin: 0;
+        margin: auto;
         .banner-top-buttom{
             display: flex;
             justify-content: center;
