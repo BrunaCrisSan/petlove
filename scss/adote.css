@@ -1713,7 +1713,7 @@ button {
     height: scroll;
   }
   .card {
-    max-width: 350px;
+    max-width: 100%;
   }
   .image-box {
     display: none;
