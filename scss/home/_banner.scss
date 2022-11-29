@@ -94,6 +94,9 @@
             .search-input{
                 background-color: $dark-lilas;
             }
+            .search-input:hover{
+                background-color: $safety-orange;
+            }
             .search-input::placeholder{
                 color: $white;
             }

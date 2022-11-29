@@ -55,6 +55,14 @@ button {
   padding: 1rem 0;
   align-items: center;
 }
+.top-menu .menu .container-menu .nav .nav-menu-link {
+  transition: transform 0.2s;
+  font-weight: 600;
+}
+.top-menu .menu .container-menu .nav .nav-menu-link:hover {
+  color: #8C52FF;
+  transform: scale(1.1);
+}
 .top-menu .menu .container-menu .nav .nav-link {
   color: #586474;
   margin: 0 5px;
@@ -64,19 +72,28 @@ button {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: none;
 }
 .top-menu .menu .container-menu .nav .nav-link.btn.btn-e {
   background-color: #F04903;
   color: #FFFFFF;
+  font-weight: 600;
   height: 35px;
 }
 .top-menu .menu .container-menu .nav .nav-link.btn.btn-e .icon {
   display: none;
 }
+.top-menu .menu .container-menu .nav .nav-link.btn.btn-e:hover {
+  background-color: #8C52FF;
+}
 .top-menu .menu .container-menu .nav .nav-link.btn.btn-c {
   background-color: #8C52FF;
   color: #FFFFFF;
+  font-weight: 600;
   height: 35px;
+}
+.top-menu .menu .container-menu .nav .nav-link.btn.btn-c:hover {
+  background-color: #F04903;
 }
 .top-menu .menu .container-menu .nav.nav-login .nav-item-menu-mobile {
   display: none;
@@ -125,11 +142,12 @@ button {
 }
 
 .offcanvas-start {
-  background-image: linear-gradient(to right top, #e2e3e5, #e9eaeb, #f1f1f2, #f8f8f8, #ffffff);
+  width: 20%;
+  height: 100%;
+  background-color: #FFFFFF;
 }
 .offcanvas-start .sidebar-img {
   width: 100px;
-  height: auto;
 }
 
 .container-sidebar {
@@ -244,6 +262,9 @@ button {
 .banner-top .banner-top-nav-pesquisa .banner-top-buttom .search-input {
   background-color: #8C52FF;
 }
+.banner-top .banner-top-nav-pesquisa .banner-top-buttom .search-input:hover {
+  background-color: #F04903;
+}
 .banner-top .banner-top-nav-pesquisa .banner-top-buttom .search-input::-moz-placeholder {
   color: #FFFFFF;
 }
@@ -284,8 +305,6 @@ button {
 }
 .main-carousel .container-carousel .swiper-container {
   font-family: "MontSerrat";
-  width: 100%;
-  overflow: hidden;
   padding: 1rem 0;
 }
 .main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide {
@@ -299,7 +318,11 @@ button {
   padding-top: 0.5rem;
   text-align: center;
 }
+.main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide .card-description .card-title h4 {
+  font-weight: 900;
+}
 .main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide .card-description .card-text {
+  color: #606060;
   padding: 0.5rem;
   text-align: center;
 }
@@ -310,6 +333,8 @@ button {
 }
 .main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide .card-description .card-link a {
   text-decoration: none;
+  color: #F04903;
+  font-weight: 600;
 }
 .main-carousel .container-carousel .swiper-container .swiper-wrapper .swiper-slide .card-image img {
   display: block;
@@ -317,7 +342,7 @@ button {
   left: 0;
   bottom: 0;
   width: 100%;
-  height: auto;
+  height: 220px;
   -o-object-fit: cover;
      object-fit: cover;
   border-top-left-radius: 8px;
@@ -448,6 +473,7 @@ button {
 .container-blog .card_g .card-body .card-link a {
   color: #F67C21;
   margin-left: 0.5rem;
+  font-weight: 600;
 }
 .container-blog .card_g .blog-footer-one {
   background-color: #F67C21;
