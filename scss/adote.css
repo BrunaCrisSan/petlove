@@ -80,9 +80,6 @@ button {
   font-weight: 600;
   height: 35px;
 }
-.top-menu .menu .container-menu .nav .nav-link.btn.btn-e .icon {
-  display: none;
-}
 .top-menu .menu .container-menu .nav .nav-link.btn.btn-e:hover {
   background-color: #8C52FF;
 }

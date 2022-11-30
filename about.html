@@ -13,34 +13,31 @@
     <div class="top-menu">
         <div class="menu">
             <div class="container container-menu">
-                <a class="logo" href="">
+                <a class="logo" href="index.html">
                     <img class="img" src="./imagem/nav-img/logocor.png" alt="Pet's Love">
                 </a>
     
                 <ul class="nav nav-menu">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">INICIO</a>
+                        <a class="nav-link nav-menu-link" href="index.html">INICIO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="adotar.html">ADOTAR</a>
+                        <a class="nav-link nav-menu-link" href="adotar.html">ADOTAR</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">SOBRE</a>
+                        <a class="nav-link nav-menu-link" href="about.html">SOBRE</a>
                     </li>
-                </ul>
-                <ul class="btn-cadastrar nav nav-login">
-                    <li class="nav-item">
-                        <a class="nav-link btn-e btn" href="sign-uplogin.html">
+                </ul> 
+                <ul class="nav nav-login">
+                    <li class="btn-cadastrar nav-item">
+                        <a class="nav-link btn-c btn" href="sign-uplogin.html">
                             CADASTRAR
                         </a>
                     </li>
-                </ul>
-    
-                <ul class="nav nav-login">
-                    <li class="nav-item">
+                    <li class="nav nav-login nav-item">
                         <a class="nav-link btn-e btn" href="in-sign.html">
-                            <span class="icon text">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                            <span class="icon text me-1 mb-1">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
                                     <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
                                   </svg>
                             </span>ENTRAR
@@ -59,23 +56,23 @@
         <div class="linha-about"></div>
     </div>
 
-    <div class="offcanvas offcanvas-start" tabindex="-1" id="MainMenuMobile" aria-labelledby="MainMenuMobileLabel">
+    <div class="offcanvas offcanvas-start d-flex justify-content-center align-items-center mt-0 pt-0" tabindex="-1" id="MainMenuMobile" aria-labelledby="MainMenuMobileLabel">
+        <button type="button" class="btn-fechar btn mb-5" data-bs-dismiss="offcanvas" aria-label="Close">Fechar</button>
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="MainMenuMobileLabel">
-            <a class="logo" href="">
-                <img class="sidebar-img" src="./imagem/nav-img/logocor.png" alt="Pet's Love">
-            </a>
-          </h5>
-          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <h5 class="offcanvas-title" id="MainMenuMobileLabel">
+                <a class="logo text-center" href="index.html">
+                    <img class="sidebar-img" src="./imagem/nav-img/logocor.png" alt="Pet's Love">
+                </a>
+            </h5>
         </div>
-        <div class="sidebar-nav">
+        <div class="sidebar-nav mt-5">
             <nav class="navbar nav-sidebar">
                 <div class="container-sidebar">
                     <ul class="sidebar-menu">
-                        <li><a class="dropdown-item" href="index.html">INICIO</a></li>
-                        <li><a class="dropdown-item" href="adotar.html">ADOTAR</a></li>
-                        <li><a class="dropdown-item" href="about.html">SOBRE</a></li>
-                        <li><a class="dropdown-item" href="in-sign.html">ENTRAR</a></li>    
+                        <li><a class="dropdown-item text-center my-2" href="index.html">INICIO</a></li>
+                        <li><a class="dropdown-item text-center my-2" href="adotar.html">ADOTAR</a></li>
+                        <li><a class="dropdown-item text-center my-2" href="about.html">SOBRE</a></li>
+                        <li><a class="dropdown-item text-center my-2" href="in-sign.html">ENTRAR</a></li>    
                     </ul>
                 </div>
             </nav>
