@@ -121,24 +121,29 @@
     margin: 0 10px;
 }
 .offcanvas-start{
-    width: 20%;
-    height: 100%;
     background-color: $white;
-    .sidebar-img{
-        width: 100px;
+    height: 100vh;
+    .btn-fechar{
+        color: $safety-orange;
+        font-weight: 500;
     }
-    
+    .sidebar-img{
+        width: 130px;
+        height: auto;
+    }
 }
 .container-sidebar{
-    margin-left: 10px;
-
     ul {
         list-style-type: none;
         list-style: none;
         margin: 0;
         padding: 0;
         .dropdown-item{
+            background-color: $safety-orange;
+            color: $white;
+            font-weight: 600;
             border-radius: 6px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
     }
 }

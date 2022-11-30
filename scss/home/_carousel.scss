@@ -1,12 +1,5 @@
- 
-.container-carousel {
-  position: relative;
-  max-width: 75rem;
-  width: 100%;
-  padding: 4rem 2rem;
-  margin: 0 auto;
-}
 .main-carousel {
+  overflow: hidden;
   .carousel-title-top{
     text-align: center;
     margin-top: 3.5rem;
@@ -28,6 +21,11 @@
     }
   }
   .container-carousel {
+    position: relative;
+    max-width: 75rem;
+    width: 100%;
+    padding: 4rem 2rem;
+    margin: 0 auto;
     .swiper-container {
       font-family: 'MontSerrat';
       padding: 1rem 0;

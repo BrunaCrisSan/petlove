@@ -142,17 +142,18 @@ button {
 }
 
 .offcanvas-start {
-  width: 20%;
-  height: 100%;
   background-color: #FFFFFF;
+  height: 100vh;
+}
+.offcanvas-start .btn-fechar {
+  color: #F04903;
+  font-weight: 500;
 }
 .offcanvas-start .sidebar-img {
-  width: 100px;
+  width: 130px;
+  height: auto;
 }
 
-.container-sidebar {
-  margin-left: 10px;
-}
 .container-sidebar ul {
   list-style-type: none;
   list-style: none;
@@ -160,7 +161,11 @@ button {
   padding: 0;
 }
 .container-sidebar ul .dropdown-item {
+  background-color: #F04903;
+  color: #FFFFFF;
+  font-weight: 600;
   border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .banner-top {
@@ -275,14 +280,9 @@ button {
   color: #FFFFFF;
 }
 
-.container-carousel {
-  position: relative;
-  max-width: 75rem;
-  width: 100%;
-  padding: 4rem 2rem;
-  margin: 0 auto;
+.main-carousel {
+  overflow: hidden;
 }
-
 .main-carousel .carousel-title-top {
   text-align: center;
   margin-top: 3.5rem;
@@ -302,6 +302,13 @@ button {
   color: #586474;
   font-weight: 600;
   margin-top: 1rem;
+}
+.main-carousel .container-carousel {
+  position: relative;
+  max-width: 75rem;
+  width: 100%;
+  padding: 4rem 2rem;
+  margin: 0 auto;
 }
 .main-carousel .container-carousel .swiper-container {
   font-family: "MontSerrat";
