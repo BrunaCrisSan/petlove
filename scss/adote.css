@@ -139,12 +139,17 @@ button {
 }
 
 .offcanvas-start {
-  background-color: #FFFFFF;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 100vh;
 }
 .offcanvas-start .btn-fechar {
-  color: #F04903;
+  color: #FFFFFF;
   font-weight: 500;
+}
+.offcanvas-start .btn-fechar .icon-fechar {
+  box-shadow: rgba(239, 245, 155, 0.747) 0px 5px 15px;
 }
 .offcanvas-start .sidebar-img {
   width: 130px;
@@ -158,11 +163,45 @@ button {
   padding: 0;
 }
 .container-sidebar ul .dropdown-item {
-  background-color: #F04903;
+  width: 100vw;
   color: #FFFFFF;
   font-weight: 600;
-  border-radius: 6px;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-sidebar ul .line-one {
+  position: absolute;
+  background-color: #F04903;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 2px;
+}
+@media screen and (max-width: 1200px) {
+  .container-sidebar ul .line-one {
+    display: inline;
+    align-items: center;
+    width: 35vw;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container-sidebar ul .line-one {
+    display: inline;
+    align-items: center;
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container-sidebar ul .line-one {
+    display: inline;
+    align-items: center;
+    width: 40vw;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container-sidebar ul .line-one {
+    display: inline;
+    align-items: center;
+    width: 70vw;
+  }
 }
 
 .banner-top {

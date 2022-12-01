@@ -118,11 +118,16 @@
     margin: 0 10px;
 }
 .offcanvas-start{
-    background-color: $white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
     .btn-fechar{
-        color: $safety-orange;
+        color: $white;
         font-weight: 500;
+        .icon-fechar{
+            box-shadow: rgba(239, 245, 155, 0.747) 0px 5px 15px;
+        }
     }
     .sidebar-img{
         width: 130px;
@@ -136,11 +141,45 @@
         margin: 0;
         padding: 0;
         .dropdown-item{
-            background-color: $safety-orange;
+            width: 100vw;
             color: $white;
-            font-weight: 600;
-            border-radius: 6px;
-            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            font-weight: 600;    
+        }
+        .line-one{
+            position: absolute;
+            background-color: $safety-orange;
+            margin-left: auto;
+            margin-right: auto;
+            width: 70%;
+            height: 2px;   
+        }
+        @include responsive(xl){
+            .line-one {
+                display: inline; 
+                align-items: center;  
+                width: 35vw;    
+            } 
+        }
+        @include responsive(l){
+            .line-one {
+                display: inline; 
+                align-items: center;  
+                width: 40vw;    
+            } 
+        }
+        @include responsive(m){
+            .line-one {
+                display: inline; 
+                align-items: center;  
+                width: 40vw;    
+            } 
+        }
+        @include responsive(s){
+            .line-one {
+                display: inline; 
+                align-items: center;  
+                width: 70vw;    
+            } 
         }
     }
 }
